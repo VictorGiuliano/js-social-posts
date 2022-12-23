@@ -65,6 +65,7 @@ h1 {
 .profile-pic {
   border-radius: 50%;
   max-width: 60px;
+  object-fit:cover;
 }
 
 .profile-pic-default {
