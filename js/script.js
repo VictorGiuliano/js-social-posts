@@ -22,4 +22,51 @@ relativo.
  2. Gestire l'assenza dell'immagine profilo con un elemento di fallback che contiene le iniziali dell'utente (es. Luca Formicola  => LF).
  3. Al click su un pulsante "Mi Piace" di un post, se abbiamo già cliccato dobbiamo decrementare il contatore e cambiare il colore del bottone.
 */
-
+//Milestone 1: CREAZIONE ARRAY OGGETTI
+const post = [
+    { 
+        idPost:1, 
+        userName: 'Bruno Barbieri',
+        iconUser: 'Post-meta-icon',  
+        date:'12/17/2019',
+        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat nam provident? Fuga voluptatem dolorem quidem hic reprehenderit nulla provident laborum illo, officiis beatae fugiat suscipit eligendi quos error recusandae?",
+        img: 'https://unsplash.it/300/300?image=3',
+        like: 180,
+    },
+    { 
+        idPost:2, 
+        userName: 'Mirko Beni',
+        iconUser: 'Post-meta-icon',  
+        date:'07/05/2016',
+        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat nam provident? Fuga voluptatem dolorem quidem hic reprehenderit nulla provident laborum illo, officiis beatae fugiat suscipit eligendi quos error recusandae?",
+        img: 'https://unsplash.it/300/300?image=3',
+        like: 320,
+    },
+    { 
+        idPost:3, 
+        userName: 'Ciro Esposito',
+        iconUser: 'Post-meta-icon',  
+        date:'10/26/2020',
+        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat nam provident? Fuga voluptatem dolorem quidem hic reprehenderit nulla provident laborum illo, officiis beatae fugiat suscipit eligendi quos error recusandae?",
+        img: 'https://unsplash.it/300/300?image=3',
+        like: 60,
+    },
+    { 
+        idPost:4, 
+        userName: 'Matteo Don',
+        iconUser: 'Post-meta-icon',  
+        date:'04/20/2002',
+        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat nam provident? Fuga voluptatem dolorem quidem hic reprehenderit nulla provident laborum illo, officiis beatae fugiat suscipit eligendi quos error recusandae?",
+        img: 'https://unsplash.it/300/300?image=3',
+        like: 12,
+    },
+    { 
+        idPost:5, 
+        userName: 'Dario Moccia',
+        iconUser: 'Post-meta-icon',  
+        date:'06/08/2012',
+        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed repellat nam provident? Fuga voluptatem dolorem quidem hic reprehenderit nulla provident laborum illo, officiis beatae fugiat suscipit eligendi quos error recusandae?",
+        img: 'https://unsplash.it/300/300?image=3',
+        like: 420,
+    },
+    ];
